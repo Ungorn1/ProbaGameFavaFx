@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.duelWindowController">
+   <children>
+      <TextField fx:id="tfOnePlayerAttack" layoutX="137.0" layoutY="88.0" prefHeight="0.0" prefWidth="42.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfOnePlayerKrit" layoutX="136.0" layoutY="118.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfOnePlayerShansKrit" layoutX="136.0" layoutY="148.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfOnePlayerDef" layoutX="136.0" layoutY="178.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfOnePlayerShansOglush" layoutX="136.0" layoutY="208.0" prefHeight="25.0" prefWidth="42.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="26.0" layoutY="90.0" prefHeight="20.0" prefWidth="70.0" text="Сила атаки" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="120.0" prefHeight="20.0" prefWidth="70.0" text="Сила крита" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="120.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="150.0" prefHeight="20.0" prefWidth="75.0" text="Шанс крита" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="180.0" prefHeight="20.0" prefWidth="85.0" text="Сила защиты" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="180.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="26.0" layoutY="210.0" prefHeight="20.0" prefWidth="110.0" text="Шанс оглушения" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="210.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfOnePlayerShansHill" layoutX="136.0" layoutY="238.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.topAnchor="238.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="26.0" layoutY="240.0" prefHeight="20.0" prefWidth="90.0" text="Шанс лечения" AnchorPane.leftAnchor="26.0" AnchorPane.topAnchor="240.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfTwoPlayerAttack" layoutX="532.0" layoutY="88.0" prefHeight="0.0" prefWidth="42.0" AnchorPane.rightAnchor="26.0" AnchorPane.topAnchor="88.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfTwoPlayerKrit" layoutX="532.0" layoutY="118.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.rightAnchor="26.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfTwoPlayerShansKrit" layoutX="532.0" layoutY="148.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.rightAnchor="26.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfTwoPlayerDef" layoutX="532.0" layoutY="178.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.rightAnchor="26.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="tfTwoPlayerShansOglush" layoutX="532.0" layoutY="208.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.rightAnchor="26.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="417.0" layoutY="93.0" prefHeight="20.0" prefWidth="70.0" text="Сила атаки" AnchorPane.topAnchor="90.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="417.0" layoutY="123.0" prefHeight="20.0" prefWidth="70.0" text="Сила крита" AnchorPane.topAnchor="120.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="417.0" layoutY="153.0" prefHeight="20.0" prefWidth="75.0" text="Шанс крита" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="417.0" layoutY="183.0" prefHeight="20.0" prefWidth="85.0" text="Сила защиты" AnchorPane.topAnchor="180.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="417.0" layoutY="213.0" prefHeight="20.0" prefWidth="110.0" text="Шанс оглушения" AnchorPane.topAnchor="210.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <TextField fx:id="tfTwoPlayerShansHill" layoutX="532.0" layoutY="238.0" prefHeight="25.0" prefWidth="42.0" AnchorPane.rightAnchor="26.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </TextField>
+      <Label layoutX="417.0" layoutY="243.0" prefHeight="20.0" prefWidth="90.0" text="Шанс лечения" AnchorPane.topAnchor="240.0">
+         <font>
+            <Font name="Bookman Old Style" size="12.0" />
+         </font>
+      </Label>
+      <Label layoutX="71.0" layoutY="47.0" prefHeight="32.0" prefWidth="60.0" text="Игрок 1" AnchorPane.leftAnchor="70.0" AnchorPane.topAnchor="45.0">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="472.0" layoutY="47.0" prefHeight="32.0" prefWidth="60.0" text="Игрок 2" AnchorPane.rightAnchor="70.0" AnchorPane.topAnchor="45.0">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="239.0" layoutY="6.0" prefHeight="32.0" prefWidth="122.0" text="Каждый игрок может" />
+      <Label layoutX="230.0" layoutY="30.0" prefHeight="17.0" prefWidth="140.0" text="использовать на умения" />
+      <Label layoutX="258.0" layoutY="47.0" prefHeight="17.0" prefWidth="85.0" text="20 - 100 очков" />
+      <Button fx:id="buttonStart" layoutX="258.0" layoutY="289.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="85.0" text="Начать" AnchorPane.topAnchor="290.0">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="labelError" layoutX="111.0" layoutY="263.0" prefHeight="26.0" prefWidth="378.0" textFill="#900000">
+         <font>
+            <Font name="Bookman Old Style" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="230.0" layoutY="92.0" prefHeight="17.0" prefWidth="140.0" text="Если не хотите указывать" />
+      <Label layoutX="240.0" layoutY="104.0" prefHeight="17.0" prefWidth="122.0" text="какой-либо параметр" />
+      <Label layoutX="248.0" layoutY="113.0" prefHeight="17.0" prefWidth="122.0" text="ставьте &quot;0&quot; в ячейку" AnchorPane.bottomAnchor="217.0" AnchorPane.rightAnchor="235.0" />
+   </children>
+</fx:root>
